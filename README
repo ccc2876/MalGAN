@@ -1,0 +1,22 @@
+MALGAN
+
+The zip files contains the following:
+	- the final paper as a pdf
+	- this readme file
+	- a directory that contains the MalGAN.py file
+	- a directory that contains the data1.npz data set I used
+	- a directory that contains the output graphs as png that my code outputted
+
+The code is currently set to run the logistic regression model with a two hidden layer neural network with sigmoid activation. 
+
+The third hidden layer is commented out for both the generator and the discriminator and if you would like to run it using that configuration those lines will have to be uncommented.
+
+The other black box options are within the main function as well as the sigmoid variable. If you wish to run the model with the tanh function change the sigmoid variable to false. To test other black box models simply comment out the two black box options that you don't want to run and make sure the one you do want to run is uncommented.
+
+The code is currently set to run the logistic regression model with a two hidden layer neural network with sigmoid activation. 
+
+The third hidden layer is commented out for both the generator and the discriminator and if you would like to run it using that configuration those lines will have to be uncommented.
+
+The other black box options are within the main function as well as the sigmoid variable. If you wish to run the model with the tanh function change the sigmoid variable to false. To test other black box models simply comment out the two black box options that you don't want to run and make sure the one you do want to run is uncommented.
+
+The path file for the data set will have to be updated to match the configuration on your systemThe path file for the data set will have to be updated to match the configuration on your system
